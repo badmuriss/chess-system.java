@@ -111,12 +111,12 @@ public class UI {
 		   List <ChessPiece> white = captured.stream().filter(x -> x.getColor() == Color.WHITE).collect(Collectors.toList());
 		   List <ChessPiece> black = captured.stream().filter(x -> x.getColor() == Color.BLACK).collect(Collectors.toList());
 	       System.out.println("Captured Pieces: "); 
-	       System.out.print("White: ");
 	       System.out.print(ANSI_WHITE);
+	       System.out.print("White: ");
 	       System.out.println(Arrays.toString(white.toArray()));
 	       System.out.print(ANSI_RESET);
-	       System.out.print("Black: ");
 	       System.out.print(ANSI_RED);
+	       System.out.print("Black: ");	       
 	       System.out.println(Arrays.toString(black.toArray()));
 	       System.out.print(ANSI_RESET);
 	   }
