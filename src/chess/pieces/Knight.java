@@ -1,5 +1,5 @@
 package chess.pieces;
 
-public class Horse {
+public class Knight {
 
 }
